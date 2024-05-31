@@ -1,0 +1,437 @@
+Question 02
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ uname
+Linux
+
+Question 03
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ pwd
+/home/tejas
+
+Question 04
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ hostname
+tejas-IdeaPad-Gaming-3-15IHU6
+
+Question 05
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ date
+Fri May 31 05:54:16 PM IST 2024
+
+Question 06
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ncal
+    May 2024          
+Su     5 12 19 26   
+Mo     6 13 20 27   
+Tu     7 14 21 28   
+We  1  8 15 22 29   
+Th  2  9 16 23 30   
+Fr  3 10 17 24 31   
+Sa  4 11 18 25  
+
+Question 07
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             Downloads    nodemonnnn      'sunbeam practice'
+'case study'                       frontend     os               Tejas
+ CPP_240344220036                  java         Pictures         Templates
+ CPP_240344220036.zip              java2.zip   'practise mern'   Videos
+ DAC_0324_Hackathon_document.pdf   java.zip     Public           WPT_240344220036
+ DBT_240344220036                  mernLAB      shubham          WPT_240344220036.zip
+ DBT_240344220036.zip              Music        snap            'wpt p'
+'dbt test'                        'my file'     sourceLAB
+ Desktop                           MYSQL       'SUNBEAM 24'
+ Documents                         nodeeeeeee  'sunbeam main'
+ 
+Question 08
+ 
+ tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ cd Tejas
+ tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+ tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat > file.txt
+ hello worldtejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+ 
+Question 09
+ 
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat >> file.txt 
+im tejas
+
+Question 10
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             Downloads    nodemonnnn      'sunbeam practice'
+'case study'                       frontend     os               Tejas
+ CPP_240344220036                  java         Pictures         Templates
+ CPP_240344220036.zip              java2.zip   'practise mern'   Videos
+ DAC_0324_Hackathon_document.pdf   java.zip     Public           WPT_240344220036
+ DBT_240344220036                  mernLAB      shubham          WPT_240344220036.zip
+ DBT_240344220036.zip              Music        snap            'wpt p'
+'dbt test'                        'my file'     sourceLAB
+ Desktop                           MYSQL       'SUNBEAM 24'
+ Documents                         nodeeeeeee  'sunbeam main'
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ cd Tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cd ..
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             Downloads    nodemonnnn      'sunbeam main'
+'case study'                       frontend     os              'sunbeam practice'
+ CPP_240344220036                  java         Pictures         Tejas
+ CPP_240344220036.zip              java2.zip   'practise mern'   Templates
+ DAC_0324_Hackathon_document.pdf   java.zip     Public           Videos
+ DBT_240344220036                  mernLAB      shubham          WPT_240344220036
+ DBT_240344220036.zip              Music        snap             WPT_240344220036.zip
+'dbt test'                        'my file'     sourceLAB       'wpt p'
+ Desktop                           MYSQL        Sunbeam
+ Documents                         nodeeeeeee  'SUNBEAM 24'
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ cd Sunbeam
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls
+os  Tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cp Tejas/file.txt os
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls
+os  Tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cd os
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/os$ ls
+file.txt
+
+Question 11
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/os$ ls
+file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/os$ ls
+file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/os$ mv file.txt /home/tejas/Tejas/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/os$ 
+
+Question 12
+
+ejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ cd Sunbeam
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls
+os  Tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cd Tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ mv file.txt filenew.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ ls
+filenew.txt
+
+Question 13
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ rev filenew.txt
+sajet midlrow olleh
+
+Question 14
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ wc filenew.txt 
+ 1  3 20 filenew.txt
+
+Question 15
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ mkdir new
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ ls
+filenew.txt  new
+
+Question 16
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cd Tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$
+
+Question 17
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             java2.zip        snap
+'case study'                       java.zip         sourceLAB
+ CPP_240344220036                  mernLAB          Sunbeam
+ CPP_240344220036.zip              Movies          'SUNBEAM 24'
+ DAC_0324_Hackathon_document.pdf   Music           'sunbeam main'
+ DBT_240344220036                 'my file'        'sunbeam practice'
+ DBT_240344220036.zip              MYSQL            Tejas
+'dbt test'                         nodeeeeeee       Templates
+ Desktop                           nodemonnnn       Videos
+ Documents                         os               WPT_240344220036
+ Downloads                         Pictures         WPT_240344220036.zip
+ file.txt                         'practise mern'  'wpt p'
+ frontend                          Public
+ java                              shubham
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ rm file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             java2.zip        shubham
+'case study'                       java.zip         snap
+ CPP_240344220036                  mernLAB          sourceLAB
+ CPP_240344220036.zip              Movies           Sunbeam
+ DAC_0324_Hackathon_document.pdf   Music           'SUNBEAM 24'
+ DBT_240344220036                 'my file'        'sunbeam main'
+ DBT_240344220036.zip              MYSQL           'sunbeam practice'
+'dbt test'                         nodeeeeeee       Tejas
+ Desktop                           nodemonnnn       Templates
+ Documents                         os               Videos
+ Downloads                         Pictures         WPT_240344220036
+ frontend                         'practise mern'   WPT_240344220036.zip
+ java                              Public          'wpt p'
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ 
+
+=============================================================================================================
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             java2.zip        shubham
+'case study'                       java.zip         snap
+ CPP_240344220036                  mernLAB          sourceLAB
+ CPP_240344220036.zip              Movies           Sunbeam
+ DAC_0324_Hackathon_document.pdf   Music           'SUNBEAM 24'
+ DBT_240344220036                 'my file'        'sunbeam main'
+ DBT_240344220036.zip              MYSQL           'sunbeam practice'
+'dbt test'                         nodeeeeeee       Tejas
+ Desktop                           nodemonnnn       Templates
+ Documents                         os               Videos
+ Downloads                         Pictures         WPT_240344220036
+ frontend                         'practise mern'   WPT_240344220036.zip
+ java                              Public          'wpt p'
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ rm -R Movies/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             java2.zip        snap
+'case study'                       java.zip         sourceLAB
+ CPP_240344220036                  mernLAB          Sunbeam
+ CPP_240344220036.zip              Music           'SUNBEAM 24'
+ DAC_0324_Hackathon_document.pdf  'my file'        'sunbeam main'
+ DBT_240344220036                  MYSQL           'sunbeam practice'
+ DBT_240344220036.zip              nodeeeeeee       Tejas
+'dbt test'                         nodemonnnn       Templates
+ Desktop                           os               Videos
+ Documents                         Pictures         WPT_240344220036
+ Downloads                        'practise mern'   WPT_240344220036.zip
+ frontend                          Public          'wpt p'
+ java                              shubham
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ 
+
+Question 18
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             java             shubham
+'case study'                       java2.zip        snap
+ CPP_240344220036                  java.zip         sourceLAB
+ CPP_240344220036.zip              mernLAB          Sunbeam
+ DAC_0324_Hackathon_document.pdf   Music           'SUNBEAM 24'
+ DBT_240344220036                 'my file'        'sunbeam main'
+ DBT_240344220036.zip              MYSQL           'sunbeam practice'
+'dbt test'                         nodeeeeeee       Tejas
+ Desktop                           nodemonnnn       Templates
+ Documents                         os               Videos
+ Downloads                         Pictures         WPT_240344220036
+ EmptyDir                         'practise mern'   WPT_240344220036.zip
+ frontend                          Public          'wpt p'
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ rmdir EmptyDir
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             java2.zip        snap
+'case study'                       java.zip         sourceLAB
+ CPP_240344220036                  mernLAB          Sunbeam
+ CPP_240344220036.zip              Music           'SUNBEAM 24'
+ DAC_0324_Hackathon_document.pdf  'my file'        'sunbeam main'
+ DBT_240344220036                  MYSQL           'sunbeam practice'
+ DBT_240344220036.zip              nodeeeeeee       Tejas
+'dbt test'                         nodemonnnn       Templates
+ Desktop                           os               Videos
+ Documents                         Pictures         WPT_240344220036
+ Downloads                        'practise mern'   WPT_240344220036.zip
+ frontend                          Public          'wpt p'
+ java                              shubham
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ 
+
+Question 19
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls -l
+total 8
+drwxrwxr-x 2 tejas tejas 4096 May 31 18:40 os
+drwxrwxr-x 3 tejas tejas 4096 May 31 18:59 Tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ touch test1.txt test2.txt test3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls
+os  Tejas  test1.txt  test2.txt  test3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+Question 20
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ cat filenew.txt 
+1
+3
+5
+7
+9
+2
+4
+6
+8
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ sort filenew.txt 
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ 
+
+Question 21
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ ls
+filenew.txt  new
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ uniq -D filenew.txt 
+this is my file
+this is my file
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ uniq -d filenew.txt 
+this is my file
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$
+
+Question 22
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ cat filenew.txt 
+1
+3
+5
+7
+9
+2
+4
+6
+8
+this is my file
+this is my file
+
+bye 
+bye
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ head -n 6 filenew.txt 
+1
+3
+5
+7
+9
+2
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ 
+
+Question 23
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ cat filenew.txt 
+1
+3
+5
+7
+9
+2
+4
+6
+8
+this is my file
+this is my file
+
+bye 
+bye
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ tail -n 6 filenew.txt 
+8
+this is my file
+this is my file
+
+bye 
+bye
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ 
+
+Question 24
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ factor 88
+88: 2 2 2 11
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ 
+
+Question 25
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ alias ll='ls -l'
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ll
+total 8
+drwxrwxr-x 2 tejas tejas 4096 May 31 18:40 os
+drwxrwxr-x 3 tejas tejas 4096 May 31 23:31 Tejas
+-rw-rw-r-- 1 tejas tejas    0 May 31 23:05 test1.txt
+-rw-rw-r-- 1 tejas tejas    0 May 31 23:05 test2.txt
+-rw-rw-r-- 1 tejas tejas    0 May 31 23:05 test3.txt
+
+Question 26
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ unalias ll
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+Question 27
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ echo $HOME
+/home/tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ 
+
+Question 28
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ ps
+    PID TTY          TIME CMD
+   3231 pts/0    00:00:00 bash
+   8862 pts/0    00:00:00 ps
+
+Question 29
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ kill 8892
+bash: kill: (8892) - No such process
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ ps
+
+Question 30
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/Tejas$ env
+SHELL=/bin/bash
+SESSION_MANAGER=local/tejas-IdeaPad-Gaming-3-15IHU6:@/tmp/.ICE-unix/1763,unix/tejas-IdeaPad-Gaming-3-15IHU6:/tmp/.ICE-unix/1763
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+SSH_AGENT_LAUNCHER=gnome-keyring
+NVM_INC=/home/tejas/.nvm/versions/node/v20.12.2/include/node
+XDG_MENU_PREFIX=gnome-
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GNOME_SHELL_SESSION_MODE=ubuntu
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+XMODIFIERS=@im=ibus
+DESKTOP_SESSION=ubuntu
+GTK_MODULES=gail:atk-bridge
+PWD=/home/tejas/Sunbeam/Tejas
+LOGNAME=tejas
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_TYPE=wayland
+SYSTEMD_EXEC_PID=1792
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.40XJO2
+HOME=/home/tejas
+USERNAME=tejas
+IM_CONFIG_PHASE=1
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+VTE_VERSION=6800
+WAYLAND_DISPLAY=wayland-0
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/c8aed492_9575_4adc_a069_d1aa4f0a213d
+NVM_DIR=/home/tejas/.nvm
+GNOME_SETUP_DISPLAY=:1
+LESSCLOSE=/usr/bin/lesspipe %s %s
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=tejas
+GNOME_TERMINAL_SERVICE=:1.105
+DISPLAY=:0
+SHLVL=1
+NVM_CD_FLAGS=
+QT_IM_MODULE=ibus
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+PATH=/home/tejas/.nvm/versions/node/v20.12.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+GDMSESSION=ubuntu
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+NVM_BIN=/home/tejas/.nvm/versions/node/v20.12.2/bin
+_=/usr/bin/env
+OLDPWD=/home/tejas/Sunbeam
+
+
+  
+
+
+
+
+
