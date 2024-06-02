@@ -1,0 +1,226 @@
+Question 01
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls
+os  Tejas  test1.txt  test2.txt  test3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls -lt
+total 8
+drwxrwxr-x 3 tejas tejas 4096 May 31 23:31 Tejas
+-rw-rw-r-- 1 tejas tejas    0 May 31 23:05 test1.txt
+-rw-rw-r-- 1 tejas tejas    0 May 31 23:05 test2.txt
+-rw-rw-r-- 1 tejas tejas    0 May 31 23:05 test3.txt
+drwxrwxr-x 2 tejas tejas 4096 May 31 18:40 os
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+Question 02
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls -s -S
+total 8
+4 os  4 Tejas  0 test1.txt  0 test2.txt  0 test3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+Question 03
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls -i
+3277777 os     3278738 test1.txt  3280174 test3.txt
+3295830 Tejas  3280164 test2.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+Question 04
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             java2.zip        snap
+'case study'                       java.zip         sourceLAB
+ CPP_240344220036                  mernLAB          Sunbeam
+ CPP_240344220036.zip              Music           'SUNBEAM 24'
+ DAC_0324_Hackathon_document.pdf  'my file'        'sunbeam main'
+ DBT_240344220036                  MYSQL           'sunbeam practice'
+ DBT_240344220036.zip              nodeeeeeee       Tejas
+'dbt test'                         nodemonnnn       Templates
+ Desktop                           os               Videos
+ Documents                         Pictures         WPT_240344220036
+ Downloads                        'practise mern'   WPT_240344220036.zip
+ frontend                          Public          'wpt p'
+ java                              shubham
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ cd Sunbeam
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls
+os  Tejas  test1.txt  test2.txt  test3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+Question 05
+
+I.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cat > name.txt
+Tejas bhivgade
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+II.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cat >> name.txt
+Ganesh nagar, Borgaon meghe, Wardha
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$
+
+III.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cat name.txt
+Tejas bhivgade
+Ganesh nagar, Borgaon meghe, Wardha
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+Question 06
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ touch -t 202501021430 name.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ stat name.txt
+  File: name.txt
+  Size: 51        	Blocks: 8          IO Block: 4096   regular file
+Device: 10306h/66310d	Inode: 3279231     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   tejas)   Gid: ( 1000/   tejas)
+Access: 2025-01-02 14:30:00.000000000 +0530
+Modify: 2025-01-02 14:30:00.000000000 +0530
+Change: 2024-06-01 17:50:16.313591800 +0530
+ Birth: 2024-06-01 17:38:14.939845695 +0530
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ 
+
+Question 07
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ mkdir one
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cd one
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one$ touch 1.txt 11.txt 111.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one$ mkdir two
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one$ cd two
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ touch 2.txt 22.txt 222.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ mkdir three
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ cd three
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ touch 3.txt 33.txt 333.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ mkdir four
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ cd four
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ touch 4.txt 44.txt 444.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ mkdir five
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ cd five
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ touch 5.txt 55.txt 555.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ cd ~
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ 
+
+Question 08
+
+I.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls
+ apr18                             Downloads    nodemonnnn      'sunbeam main'
+'case study'                       frontend     os              'sunbeam practice'
+ CPP_240344220036                  java         Pictures         Tejas
+ CPP_240344220036.zip              java2.zip   'practise mern'   Templates
+ DAC_0324_Hackathon_document.pdf   java.zip     Public           Videos
+ DBT_240344220036                  mernLAB      shubham          WPT_240344220036
+ DBT_240344220036.zip              Music        snap             WPT_240344220036.zip
+'dbt test'                        'my file'     sourceLAB       'wpt p'
+ Desktop                           MYSQL        Sunbeam
+ Documents                         nodeeeeeee  'SUNBEAM 24'
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ cd Sunbeam/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ ls
+name.txt  one  os  Tejas  test1.txt  test2.txt  test3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam$ cd one/two/three/four/five/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ ls
+555.txt  55.txt  5.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ 
+
+II.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:/home$ cd ~/Sunbeam/one/two/three/four/
+echo "Hello this is Tejas" > 44.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ ls
+444.txt  44.txt  4.txt  five
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ cat 44.txt
+Hello this is Tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ 
+
+III.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:/home$ rm /home/tejas/Sunbeam/one/two/three/four/five/555.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:/home$ cd ~/Sunbeam/one/two/three/four/five/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ ls
+55.txt  5.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ 
+
+IV.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:/$ cd /home/tejas/Sunbeam/one/two/three/four/five/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ 
+
+V.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ cd ~/Sunbeam/one/two/three/; echo "PG-DAC" > 3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ cat 3.txt
+PG-DAC
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ 
+
+VI.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ ls ~/Sunbeam/one/two/
+222.txt  22.txt  2.txt  three
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ 
+
+VII.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ cd ~/Sunbeam/one/two/; rm 222.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ ls
+22.txt  2.txt  three
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ 
+
+VIII.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ cd ~/Sunbeam/one/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one$ 
+
+IX.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one$ cd ~/Sunbeam/one/two/three/four/five/; rm 5.txt 55.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ ls
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four/five$ 
+
+X.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ cd ~/Sunbeam/one/two/three/four/; rmdir five
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ ls
+444.txt  44.txt  4.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ 
+
+XI.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three/four$ cd ~/Sunbeam/one/two/three/; rm -r four/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ ls
+333.txt  33.txt  3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ 
+
+XII.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ cd /home/
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:/home$ 
+
+9.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ stat 3.txt
+  File: 3.txt
+  Size: 7         	Blocks: 8          IO Block: 4096   regular fil
+Device: 10306h/66310d	Inode: 3541508     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   tejas)   Gid: ( 1000/   tejas)
+Access: 2024-06-02 18:28:50.388845630 +0530
+Modify: 2024-06-02 18:28:35.688986799 +0530
+Change: 2024-06-02 18:28:35.688986799 +0530
+ Birth: 2024-06-01 18:04:32.634116475 +0530
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ touch -t 202501021450 3.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ stat 3.txt
+  File: 3.txt
+  Size: 7         	Blocks: 8          IO Block: 4096   regular file
+Device: 10306h/66310d	Inode: 3541508     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   tejas)   Gid: ( 1000/   tejas)
+Access: 2025-01-02 14:50:00.000000000 +0530
+Modify: 2025-01-02 14:50:00.000000000 +0530
+Change: 2024-06-02 19:10:32.573329562 +0530
+ Birth: 2024-06-01 18:04:32.634116475 +0530
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two/three$ 
+
+
+
+
+
