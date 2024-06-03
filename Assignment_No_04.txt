@@ -1,0 +1,77 @@
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat > data.txt
+Linux is open source.
+In Linux everything is file
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+
+I.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ wc data.txt
+  6  25 145 data.txt
+
+II.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ grep "files" data.txt
+files have permissions.
+files have inode no.
+files have size.
+there are several types of files
+
+III.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ grep -w "file" data.txt
+In Linux everything is file
+
+IV.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ grep -v "files" data.txt                         
+                   
+Linux is open source.
+In Linux everything is file
+
+V.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ grep "have" data.txt
+files have permissions.
+files have inode no.
+files have size.
+
+VI.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ grep "^f" data.txt
+files have permissions.
+files have inode no.
+files have size.
+
+VII.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ egrep "\.$" data.txt
+Linux is open source.
+files have permissions.
+files have inode no.
+files have size.
+
+VIII.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ head -n -2 data.txt
+Linux is open source.
+In Linux everything is file
+files have permissions.
+files have inode no.
+
+IX.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ tail -n -3 data.txt
+files have inode no.
+files have size.
+there are several types of files
+
+X.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ head -n +5 data.txt | tail -n 3
+files have permissions.
+files have inode no.
+files have size.
+
