@@ -1,0 +1,273 @@
+Question 01
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ls -a
+ .                                 .dotnet      .my.cnf          .ssh
+ ..                                Downloads   'my file'         .sudo_as_admin_successful
+ apr18                             frontend     MYSQL            Sunbeam
+ .bash_history                     .git         .mysql_history  'SUNBEAM 24'
+ .bash_logout                      .gitconfig   nodeeeeeee      'sunbeam main'
+ .bashrc                           .gnupg       nodemonnnn      'sunbeam practice'
+ .cache                            .java        .npm             Tejas
+'case study'                       java         .nvm             Templates
+ .config                           java2.zip    os               .thunderbird
+ CPP_240344220036                  java.zip     Pictures         Videos
+ CPP_240344220036.zip              .lesshsQ     .pki             .vscode
+ DAC_0324_Hackathon_document.pdf   .lesshst    'practise mern'   WPT_240344220036
+ DBT_240344220036                  .local       .profile         WPT_240344220036.zip
+ DBT_240344220036.zip              mernLAB      Public          'wpt p'
+'dbt test'                         .mongodb     shubham          .yarn
+ Desktop                           .mozilla     snap             .yarnrc
+ Documents                         Music        sourceLAB
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ 
+
+Question 02
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ for file in *.txt; do mv "$file" "${file%.txt}.htm"; done
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ ls
+22.htm  2.htm  three
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Sunbeam/one/two$ 
+
+Question 03
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ln -s file
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+file  file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 04
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls -l
+total 4
+lrwxrwxrwx 1 tejas tejas  4 Jun  3 15:22 file -> file
+-rw-rw-r-- 1 tejas tejas 21 May 31 19:01 file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$
+
+Question 05
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ stat file.txt
+  File: file.txt
+  Size: 21        	Blocks: 8          IO Block: 4096   regular file
+Device: 10306h/66310d	Inode: 3296056     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   tejas)   Gid: ( 1000/   tejas)
+Access: 2024-05-31 22:53:48.419318975 +0530
+Modify: 2024-05-31 19:01:22.107234837 +0530
+Change: 2024-05-31 19:01:22.123248354 +0530
+ Birth: 2024-05-31 19:01:22.107234837 +0530
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 06
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ touch -a file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ stat file.txt
+  File: file.txt
+  Size: 21        	Blocks: 8          IO Block: 4096   regular file
+Device: 10306h/66310d	Inode: 3296056     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/   tejas)   Gid: ( 1000/   tejas)
+Access: 2024-06-03 15:41:41.976984947 +0530
+Modify: 2024-05-31 19:01:22.107234837 +0530
+Change: 2024-06-03 15:41:41.976984947 +0530
+ Birth: 2024-05-31 19:01:22.107234837 +0530
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 07
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ touch file1.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+file  file1.txt  file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 08
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ tail -n +5 file1.txt
+line 5
+line 6
+line 7
+line 8
+line 9
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 12
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ whoami
+tejas
+
+Question 13
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ tty
+/dev/pts/0
+
+Question 14
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ whoami; tty
+tejas
+/dev/pts/0
+
+Question 15
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ users
+tejas
+
+Question 16
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ who
+tejas    tty2         2024-06-03 14:12 (tty2)
+
+Question 17
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ grep 1 file1.txt
+line 1
+
+Question 18
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod 11 file1.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+file  file1.txt  file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls -l file1.txt
+------x--x 1 tejas tejas 62 Jun  3 15:47 file1.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 19
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls -l
+total 8
+lrwxrwxrwx 1 tejas tejas  4 Jun  3 15:22 file -> file
+------x--x 1 tejas tejas 62 Jun  3 15:47 file1.txt
+-rw-rw-r-- 1 tejas tejas 21 May 31 19:01 file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 20
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+file  file1.txt  file.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat file.txt
+hello world im tejas
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ wc -w file.txt > output.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+file  file1.txt  file.txt  output.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat output.txt
+4 file.txt
+
+Question 21
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ who|wc
+      1       5      46
+
+Question 22
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat output.txt
+4 file.txt
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ head -n 10 output.txt | tail -n 6
+4
+5
+6
+7
+8
+9
+
+Question 23
+
+Pushpatejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat sort.txt
+Tejas
+Kunal
+Shubham
+Raj
+Keer
+Abhi
+Rushi
+Manoj
+Pushpatejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ sort sort.txt | uniq
+Abhi
+Keer
+Kunal
+Manoj
+Pushpa
+Raj
+Rushi
+Shubham
+Tejas
+
+Question 24
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ grep | who
+tejas    tty2         2024-06-03 14:12 (tty2)
+
+Question 25
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls -las
+total 24
+4 drwxrwxr-x  2 tejas tejas 4096 Jun  3 17:28 .
+4 drwxr-x--- 50 tejas tejas 4096 Jun  3 16:13 ..
+0 lrwxrwxrwx  1 tejas tejas    4 Jun  3 15:22 file -> file
+4 ------x--x  1 tejas tejas   62 Jun  3 15:47 file1.txt
+4 -rw-rw-r--  1 tejas tejas   21 May 31 19:01 file.txt
+4 -rw-rw-r--  1 tejas tejas   63 Jun  3 17:22 output.txt
+4 -rw-rw-r--  1 tejas tejas   52 Jun  3 17:29 sort.txt
+
+Question 26
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls -l | grep '^-' | wc -l
+4
+
+Question 27
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls -a | grep "^\."
+.
+..
+
+Question 28
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat sort.txt
+Tejas
+Kunal
+Shubham
+Raj
+Keer
+Abhi
+Rushi
+Manoj
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ tr '[:lower:]' '[:upper:]' < sort.txt > output_file
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+file  file1.txt  file.txt  output_file  output.txt  sort.txt
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat output_file
+TEJAS
+KUNAL
+SHUBHAM
+RAJ
+KEER
+ABHI
+RUSHI
+MANOJ
+PUSHPA
+
+Question 29
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat > data.csv
+Name,Country 
+Tejas,Wardha
+Shubham,Pune
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cut -d ',' -f 1,3 data.csv
+Name
+Tejas
+Shubham
+
+
