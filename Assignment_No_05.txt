@@ -1,0 +1,211 @@
+Question 1.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim login.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x login.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./login.sh
+Your login details are tejas
+Your Home dir is /home/tejas
+
+Question 2.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim menu.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x menu.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./menu.sh
+Please select an option:
+1. Date
+2. Cal
+3. Ls
+4. Pwd
+5. Exit
+Enter your choice [1-5]: 1
+Current Date and Time:
+Mon Jun  3 11:49:33 PM IST 2024
+
+Question 3.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./Question3.sh 
+Enter a file or directory name: Question3.sh
+The entered name 'Question3.sh' is a file.
+File size: 704 bytes
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ls
+data.csv  file       file.txt  menu.sh      output.txt    sort.txt
+data.txt  file1.txt  login.sh  output_file  Question3.sh  test
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ mkdir test1
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./Question3.sh 
+Enter a file or directory name: test1
+The entered name 'test1' is a directory.
+Directory contents:
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 4.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./primeno.sh
+Enter a number to check if it's prime: 65
+65 is not a prime number.
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./primeno.sh
+Enter a number to check if it's prime: 66
+66 is not a prime number.
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./primeno.sh
+Enter a number to check if it's prime: 2
+2 is a prime number.
+
+Question 5.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim greatest.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x greatest.sh 
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./greatest.sh 
+Enter the first number: 454
+Enter the second number: 656
+Enter the third number: 245
+The greatest number is 656.
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 6.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim leapyear.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x leapyear.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./leapyear.sh 
+Enter a year to check if it's a leap year: 2020
+2020 is a leap year.
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./leapyear.sh 
+Enter a year to check if it's a leap year: 2021
+2021 is not a leap year.
+
+Question 7.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ vim posNeg.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ chmod +x posNeg.sh 
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ./posNeg.sh 
+Enter a number to check if it's positive or negative: 22
+22 is a positive number.
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ./posNeg.sh 
+Enter a number to check if it's positive or negative: -35
+-35 is a negative number.
+
+Question 8.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ vim table.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ chmod +x table.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ ./table.sh
+Enter a number to print its table: 7
+Table of 7:
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~$ 
+
+Question 9.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim factorial.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x factorial.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./factorial.sh
+Enter a number to calculate its factorial: 15
+Factorial of 15 is 1307674368000
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 10.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim fib.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x fib.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./fib.sh
+Enter the number of terms in the Fibonacci series: 12
+Fibonacci series up to 12 terms:
+0 1 1 2 3 5 8 13 21 34 55 89 
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 11.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim sal.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x sal.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./sal.sh
+Enter the basic salary: 54845
+Basic Salary: 54845
+DA (40%): 21938.00
+HRA (20%): 10969.00
+Gross Salary: 87752.00
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 12.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim modification.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x modification.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./modification.sh sal.sh
+Last modified time of 'sal.sh': 2024-06-05 22:07:07.985135334 +0530
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 13.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim hidden.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x hidden.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./hidden.sh
+Hidden files in the current directory:
+.
+..
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 14.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim executable.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x executable.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./executable.sh
+Executable files in the current directory:
+executable.sh
+factorial.sh
+fib.sh
+file
+file1.txt
+greatest.sh
+hidden.sh
+leapyear.sh
+login.sh
+menu.sh
+modification.sh
+posNeg.sh
+primeno.sh
+Question3.sh
+sal.sh
+table.sh
+test
+test1
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 15.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim append.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x append.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./append.sh data.txt file.txt
+Contents from 'data.txt' with reverse case appended to 'file.txt'.
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ cat file.txt
+hello world im tejas
+lINUX IS OPEN SOURCE.
+iN lINUX EVERYTHING IS FILE
+FILES HAVE PERMISSIONS.
+FILES HAVE INODE NO.
+FILES HAVE SIZE.
+THERE ARE SEVERAL TYPES OF FILES
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+Question 17.
+
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ vim pattern.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ chmod +x pattern.sh
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ ./pattern.sh
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+tejas@tejas-IdeaPad-Gaming-3-15IHU6:~/Tejas$ 
+
+
+
+
+
+
